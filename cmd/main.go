@@ -30,7 +30,7 @@ func main() {
 
 }
 
-const tableName = "LambdaInGoUser"
+const tableName = "go-serverless"
 
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	switch req.HTTPMethod {
